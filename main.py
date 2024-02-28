@@ -30,7 +30,7 @@ def get_scaled_points(scale, points):
 
 def main():
     pygame.init()
-    size = width, height = 800, 600
+    size = width, height = 501, 501
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption(TITLE)
     running = True
